@@ -333,8 +333,10 @@ thread_foreach (thread_action_func *func, void *aux)
 
 /* Sets the current thread's priority to NEW_PRIORITY. */
 void
-thread_set_priority (int new_priority) 
+thread_set_priority (int new_priority) //Param Gotta implement this
 {
+  new_priority=new_priority-1;
+  // return new_priority;
   /* Not yet implemented. */
 }
 
